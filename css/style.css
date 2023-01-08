@@ -453,8 +453,14 @@ header .container {
   background-color: #2f303a;
   padding: 60px;
 }
+.logo-footer {
+  width: 145px;
+  height: 31px;
+  text-decoration: none;
+}
 .address {
   display: flex;
+  margin-top: 20px;
 }
 .footer-logo {
   font-family: inherit;
@@ -473,6 +479,9 @@ header .container {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+} 
+.maps-link {
+  margin-bottom: 9px;
 }
 .maps {
   font-style: normal;
@@ -487,6 +496,9 @@ header .container {
 .maps:hover,
 .maps:focus {
   color: #2196f3;
+}
+.mail-link {
+  margin-bottom: 9px;
 }
 .mail {
   font-style: normal;
@@ -516,7 +528,7 @@ header .container {
   color: #2196f3;
 }
 .footer-soc-list {
-  margin-top: -27px;
+  margin-top: -43px;
   margin-left: 70px;
   width: 206px;
   height: 80px;
