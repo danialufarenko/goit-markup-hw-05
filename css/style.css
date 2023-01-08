@@ -181,10 +181,10 @@ header .container {
 /*------------HERO------------*/
 
 .hero-container {
-  padding: 200px 452px 210px 452px;
+  padding: 200px 0;
   max-width: 1600px;
-  min-width: 700px;
-  margin: 0 auto;
+  min-width: 1200px;
+  margin: auto;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -207,8 +207,11 @@ header .container {
   text-transform: uppercase;
   background-color: transparent;
   color: #ffffff;
+  min-width: 700px;
+  height: 120px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: var(--main-margin);
 }
 .hero-btn {
